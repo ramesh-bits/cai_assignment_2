@@ -1,0 +1,4 @@
+faiss
+sentence_transformers
+nltk
+transformers
