@@ -1,7 +1,7 @@
 import streamlit as st
 import time
-from retriever import dense_retrieve, sparse_retrieve, rrf, corpus
-from generator import generate_answer
+from rag.retriever import dense_retrieve, sparse_retrieve, rrf, corpus
+from rag.generator import generate_answer
 
 st.title("Hybrid RAG System")
 
