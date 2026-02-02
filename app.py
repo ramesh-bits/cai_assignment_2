@@ -23,7 +23,7 @@ if query:
     st.subheader("Retrieved Chunks")
     for i,score in fused:
         with st.expander(corpus[i]["title"]):
-            st.write(corpus[i]["text"])s
+            st.write(corpus[i]["text"])
             st.write("Source:", corpus[i]["url"])
             st.write("RRF Score:", score)
 
