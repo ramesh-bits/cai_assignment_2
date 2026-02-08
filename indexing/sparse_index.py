@@ -3,7 +3,12 @@ import pickle
 from rank_bm25 import BM25Okapi
 from nltk.tokenize import word_tokenize
 
-corpus = json.load(open("corpus_chunks.json"))
+"""Build BM25 index from the corpus chunks.
+
+This script expects `data/corpus_chunks.json` (created by `indexing/build_corpus.py`).
+"""
+
+corpus = json.load(open("data/corpus_chunks.json"))
 tokenized = [word_tokenize(c["text"].lower()) for c in corpus]
 
 bm25 = BM25Okapi(tokenized)

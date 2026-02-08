@@ -1,4 +1,15 @@
 faiss-cpu
-sentence_transformers
+sentence-transformers
+numpy
+torch
 nltk
 transformers
+wikipedia-api
+streamlit
+rank-bm25
+rouge-score
+beautifulsoup4
+lxml
+tqdm
+langchain-text-splitters
+tiktoken

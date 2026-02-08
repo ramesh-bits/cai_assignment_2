@@ -6,7 +6,8 @@ import pickle
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
-corpus = json.load(open("corpus_chunks.json"))
+# read corpus chunks produced by build_corpus.py (in data/)
+corpus = json.load(open("data/corpus_chunks.json"))
 texts = [c["text"] for c in corpus]
 
 embeddings = model.encode(texts, show_progress_bar=True)

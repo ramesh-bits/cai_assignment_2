@@ -1,8 +1,16 @@
+import os
+import sys
+
+# Ensure project root is on sys.path so `from rag...` works when running the script directly
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
 import json
 from rouge_score import rouge_scorer
-from retriever import dense_retrieve, sparse_retrieve, rrf, corpus
+from rag.retriever import dense_retrieve, sparse_retrieve, rrf, corpus
 
-questions = json.load(open("questions.json"))
+questions = json.load(open("data/questions.json"))
 scorer = rouge_scorer.RougeScorer(["rougeL"], use_stemmer=True)
 
 def url_rank(fused, urls):
@@ -28,5 +36,5 @@ for q in questions:
         scorer.score(q["answer"], answer)["rougeL"].fmeasure
     )
 
-print("MRR:", sum(mrr)/len(mrr))
-print("Avg ROUGE-L:", sum(rouge_scores)/len(rouge_scores))
+print("MRR:", sum(mrr)/(len(mrr) or 1))
+print("Avg ROUGE-L:", sum(rouge_scores)/(len(rouge_scores) or 1))
