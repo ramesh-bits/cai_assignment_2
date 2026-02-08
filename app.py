@@ -2,6 +2,7 @@ import streamlit as st
 import time
 from rag.retriever import dense_retrieve, sparse_retrieve, rrf, corpus
 from rag.generator import generate_answer
+import nltk
 
 st.title("Hybrid RAG System")
 
@@ -28,3 +29,5 @@ if query:
             st.write("RRF Score:", score)
 
     st.write("Response Time:", round(time.time()-start,2), "seconds")
+
+nltk.download('punkt_tab')
