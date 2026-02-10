@@ -1,0 +1,902 @@
+[
+  {
+    "id": 0,
+    "question": "Why is The important or significant?",
+    "answer": "While serving in prison following this failed attempt, Hyde was ensnared by the mind-control power of the Purple Man, and forced to battle Daredevil in an arena alongside Cobra, Jester, and Gladiator",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Mister_Hyde_(Marvel_Comics)"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 1,
+    "question": "Why is While described this way?",
+    "answer": "Although the term duck typing is not precisely defined and therefore not wrong, it usually implies that type conformance is not statically checked",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Go_(programming_language)"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 2,
+    "question": "How is Microsoft related to In?",
+    "answer": "Microsoft has been working on a new project called the Virtual File System for Git (VFSForGit) to address these challenges In 2021 the VFS for Git was superseded by Scalar",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Microsoft_Windows"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 3,
+    "question": "What is His?",
+    "answer": "His 1979 song \"Blue Lagoon\" was named the 14th-best guitar instrumental by Young Guitar Magazine in 2019",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Masayoshi_Takanaka"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 4,
+    "question": "Why is However important or significant?",
+    "answer": "Durkheim maintained that the social sciences are a logical continuation of the natural ones into the realm of human activity, and insisted that they should retain the same objectivity, rationalism, and approach to causality",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sociology"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 5,
+    "question": "Why is Griffith described this way?",
+    "answer": "Due to this polysaccharide layer of bacteria, a host's immune system cannot recognize the bacteria and it kills the host",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Molecular_biology"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 6,
+    "question": "How does Science compare to Edward Grant?",
+    "answer": "Science: Science historian Edward Grant writes, \"If revolutionary rational thoughts were expressed [in the 18th century], they were only made possible because of the long medieval tradition that established the use of reason as one of the most important of human activities\". Edward Grant: Other misconceptions such as \"the Church prohibited autopsies and dissections during the Middle Ages\", \"the rise of Christianity killed off ancient science\", or \"the medieval Christian Church suppressed the growth of natural philosophy\", are all cited by Numbers as examples of widely popular myths that still pass as historical truth, although they are not supported by historical research.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Middle_Ages"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 7,
+    "question": "How does The compare to Ordered?",
+    "answer": "The: The general case of having dependent variables with more than two values is termed polytomous regression. Ordered: Ordered logistic regression (or ordered logit) handles ordinal dependent variables (ordered values).",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Logistic_regression"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 8,
+    "question": "Why is The important or significant?",
+    "answer": "In the  19th and early 20th century, modernist art, politics, science, and culture have come to dominate not only Western Europe and North America, but almost every area on the globe, including movements thought of as opposed to the western world and globalization.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Modern_era"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 9,
+    "question": "How does Meanwhile compare to Ethnological Society?",
+    "answer": "Meanwhile: Meanwhile, the Ethnological Society of New York, now the American Ethnological Society, was founded on its model in 1842, as well as the Ethnological Society of London in 1843, a break-away group of the Aborigines' Protection Society. Ethnological Society: Theorists in diverse fields such as anatomy, linguistics, and ethnology, started making feature-by-feature comparisons of their subject matters, and were beginning to suspect that similarities between animals, languages, and folkways were the result of processes or laws unknown to them then.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Anthropology"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 10,
+    "question": "What is Expansionary?",
+    "answer": "Expansionary policy occurs when a monetary authority uses its instruments to stimulate the economy",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Monetary_policy"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 11,
+    "question": "How is Led related to Despite?",
+    "answer": "Led by the revolutionary Fran\u00e7ois-No\u00ebl Babeuf, their demands included immediate implementation of the 1793 Constitution, and a more equitable distribution of wealth Despite support from sections of the military, the revolt was easily crushed, while Babeuf and other leaders were executed",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/French_Revolution"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 12,
+    "question": "How does This compare to It?",
+    "answer": "This: This requires that the instruction pipeline is filled as often as possible and requires significant amounts of CPU cache. It: It also makes hazard-avoiding techniques like branch prediction, speculative execution, register renaming, out-of-order execution and transactional memory crucial to maintaining high levels of performance.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Central_processing_unit"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 13,
+    "question": "What is Set?",
+    "answer": "Set theory\nSet theory is the branch of mathematics that studies sets, which are collections of objects, such as {blue, white, red} or the (infinite) set of all prime numbers",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Discrete_mathematics"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 14,
+    "question": "How is The related to Here?",
+    "answer": "The full positional encoding defined in the original paper is:\n  \n    \n      \n        (\n        f\n        (\n        t\n        \n          )\n          \n            2\n            k\n          \n        \n        ,\n        f\n        (\n        t\n        \n          )\n          \n            2\n            k\n            +\n            1\n          \n        \n        )\n        =\n        (\n        sin\n        \u2061\n        (\n        \u03b8\n        )\n        ,\n        cos\n        \u2061\n        (\n        \u03b8\n        )\n        )\n        \n        \u2200\n        k\n        \u2208\n        {\n        0\n        ,\n        1\n        ,\n        \u2026\n        ,\n        d\n        \n          /\n        \n        2\n        \u2212\n        1\n        }\n      \n    \n    {\\displaystyle (f(t)_{2k},f(t)_{2k+1})=(\\sin(\\theta ),\\cos(\\theta ))\\quad \\forall k\\in \\{0,1,\\ldots ,d/2-1\\}}\n  \nwhere \n  \n    \n      \n        \u03b8\n        =\n        \n          \n            t\n            \n              r\n              \n                k\n              \n            \n          \n        \n        ,\n        r\n        =\n        \n          N\n          \n            2\n            \n              /\n            \n            d\n          \n        \n      \n    \n    {\\displaystyle \\theta ={\\frac {t}{r^{k}}},r=N^{2/d}} Here, \n  \n    \n      \n        N\n      \n    \n    {\\displaystyle N}\n  \n is a free parameter that should be significantly larger than the biggest \n  \n    \n      \n        k\n      \n    \n    {\\displaystyle k}\n  \n that would be input into the positional encoding function",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Transformer_(deep_learning)"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 15,
+    "question": "How does At compare to Frenchmen?",
+    "answer": "At: At the same time, restricting the vote to those who paid a minimal amount of tax disenfranchised a significant proportion of the 6 million Frenchmen over 25, while only 10% of those able to vote actually did so. Frenchmen: 264 members were affiliated with Barnave's Feuillants, constitutional monarchists who considered the Revolution had gone far enough, while another 136 were Jacobin leftists who supported a republic, led by Brissot and usually referred to as Brissotins.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/French_Revolution"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 16,
+    "question": "Why is Cooperative described this way?",
+    "answer": "As non-cooperative game theory is more general, cooperative games can be analyzed through the approach of non-cooperative game theory (the converse does not hold) provided that sufficient assumptions are made to encompass all the possible strategies available to players due to the possibility of external enforcement of cooperation",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Game_theory"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 17,
+    "question": "How does There compare to Preparation?",
+    "answer": "There: There are four key components of a computer security incident response plan:\n\nPreparation: Preparing stakeholders on the procedures for handling computer security incidents or compromises\nDetection and analysis: Identifying and investigating suspicious activity to confirm a security incident, prioritizing the response based on impact and coordinating notification of the incident\nContainment, eradication and recovery: Isolating affected systems to prevent escalation and limit impact, pinpointing the genesis of the incident, removing malware, affected systems and bad actors from the environment and restoring systems and data when a threat no longer remains\nPost incident activity: Post mortem analysis of the incident, its root cause and the organization's response with the intent of improving the incident response plan and future response efforts. Preparation: There are four key components of a computer security incident response plan:\n\nPreparation: Preparing stakeholders on the procedures for handling computer security incidents or compromises\nDetection and analysis: Identifying and investigating suspicious activity to confirm a security incident, prioritizing the response based on impact and coordinating notification of the incident\nContainment, eradication and recovery: Isolating affected systems to prevent escalation and limit impact, pinpointing the genesis of the incident, removing malware, affected systems and bad actors from the environment and restoring systems and data when a threat no longer remains\nPost incident activity: Post mortem analysis of the incident, its root cause and the organization's response with the intent of improving the incident response plan and future response efforts.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Computer_security"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 18,
+    "question": "How is On February related to Azure?",
+    "answer": "On February 4, 2016, Microsoft announced the General Availability of the Azure IoT Hub service Azure IoT Edge is a fully managed service built on IoT Hub that allows for cloud intelligence deployed locally on IoT edge devices",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Microsoft_Azure"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 19,
+    "question": "Why is Control described this way?",
+    "answer": "However, it was found to be impractical because of the unstable relationship between monetary aggregates and other macroeconomic variables, and was eventually abandoned by all major economies",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Inflation"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 20,
+    "question": "How is Consciousness related to It?",
+    "answer": "Consciousness is being aware of something internal to one's self or being conscious of states or objects in one's external environment It has been the topic of extensive explanations, analyses, and debate among philosophers, scientists, and theologians for millennia",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Consciousness"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 21,
+    "question": "What is Additionally?",
+    "answer": "Additionally, his work serves in understanding social interactions in the child's early developmental stages focusing on the topic of caregiver-infant interaction",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Behaviorism"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 22,
+    "question": "Why is Consistent important or significant?",
+    "answer": "Individual best practices\nSome best practices that an individual could follow would be to separate common set-up and tear-down logic into test support services utilized by the appropriate test cases, to keep each test oracle focused on only the results necessary to validate its test, and to design time-related tests to allow tolerance for execution in non-real time operating systems",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Test-driven_development"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 23,
+    "question": "Why is Information important or significant?",
+    "answer": "Oregon's HB2395 also \"requires [a person that manufactures, sells or offers to sell connected device] manufacturer to equip connected device with reasonable security features that protect connected device and information that connected device [collects, contains, stores or transmits] stores from access, destruction, modification, use or disclosure that consumer does not authorise.\" According to antivirus provider Kaspersky, there were 639 million data breaches of IoT devices in 2020 and 1.5 billion breaches in the first six months of 2021",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Internet_of_things"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 24,
+    "question": "What is Headers?",
+    "answer": "HTTP/1.1 introduced and later versions provide:\n\nHeaders to better manage the conditional retrieval of cached resources",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/HTTP"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 25,
+    "question": "What is International?",
+    "answer": "International organizations, including the United Nations, struggled to manage the violence",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cold_War"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 26,
+    "question": "How does The compare to Institute?",
+    "answer": "The: The SDAV Institute aims to bring together the expertise of six national laboratories and seven universities to develop new tools to help scientists manage and visualize data on the department's supercomputers. Institute: The Massachusetts Institute of Technology hosts the Intel Science and Technology Center for Big Data in the MIT Computer Science and Artificial Intelligence Laboratory, combining government, corporate, and institutional funding and research efforts.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Big_data"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 27,
+    "question": "How is In related to Tool?",
+    "answer": "In the philosophy of language, the view of linguistic meaning as residing in the logical relations between propositions and reality was developed by philosophers such as Alfred Tarski, Bertrand Russell, and other formal logicians Tool for communication\nYet another definition sees language as a system of communication that enables humans to exchange verbal or symbolic utterances",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Language"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 28,
+    "question": "How does The compare to Parabellum?",
+    "answer": "The: The aircraft's armament consisted of a 7.92-millimeter (0.312 in) Parabellum MG14 machine gun on a flexible mount for the observer. Parabellum: Operators\nGerman Empire\nImperial German Navy\n\nSpecifications (FF.34)\nData from Flugzeugbau Friedrichshafen GmbH: Diplom-Ingenieur Theodor KoberGeneral characteristics\nCrew: 2\nLength: 10.85 m (35 ft 7 in)\nWingspan: 18.4 m (60 ft 4 in)\nHeight: 4.1 m (13 ft 5 in)\nPowerplant: 1 \u00d7 Maybach Mb.IV water-cooled straight-six engine, 180 kW (240 hp)\nPropellers: 2-bladed fixed-pitch\nArmament\n\nGuns: 1 \u00d7 7.92 mm (0.312 in) Parabellum MG14 machine gun for observer\n\nSee also\nRelated lists\n\nList of military aircraft of Germany\nList of flying boats and floatplanes\n\nReferences\nBibliography\nBorzutzki, Siegfried (1993).",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Friedrichshafen_FF.34"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 29,
+    "question": "How is Property related to Although?",
+    "answer": "Property 3: (Spectral decomposition of \u03a3)\n\n  \n    \n      \n        \n          \u03a3\n        \n        =\n        \n          \u03bb\n          \n            1\n          \n        \n        \n          \u03b1\n          \n            1\n          \n        \n        \n          \u03b1\n          \n            1\n          \n          \u2032\n        \n        +\n        \u22ef\n        +\n        \n          \u03bb\n          \n            p\n          \n        \n        \n          \u03b1\n          \n            p\n          \n        \n        \n          \u03b1\n          \n            p\n          \n          \u2032\n        \n      \n    \n    {\\displaystyle \\mathbf {\\Sigma } =\\lambda _{1}\\alpha _{1}\\alpha _{1}'+\\cdots +\\lambda _{p}\\alpha _{p}\\alpha _{p}'}\n  \n\nBefore we look at its usage, we first look at diagonal elements,\n\n  \n    \n      \n        Var\n        \u2061\n        (\n        \n          x\n          \n            j\n          \n        \n        )\n        =\n        \n          \u2211\n          \n            k\n            =\n            1\n          \n          \n            P\n          \n        \n        \n          \u03bb\n          \n            k\n          \n        \n        \n          \u03b1\n          \n            k\n            j\n          \n          \n            2\n          \n        \n      \n    \n    {\\displaystyle \\operatorname {Var} (x_{j})=\\sum _{k=1}^{P}\\lambda _{k}\\alpha _{kj}^{2}}\n  \n\nThen, perhaps the main statistical implication of the result is that not only can we decompose the combined variances of all the elements of x into decreasing contributions due to each PC, but we can also decompose the whole covariance matrix into contributions \n  \n    \n      \n        \n          \u03bb\n          \n            k\n          \n        \n        \n          \u03b1\n          \n            k\n          \n        \n        \n          \u03b1\n          \n            k\n          \n          \u2032\n        \n      \n    \n    {\\displaystyle \\lambda _{k}\\alpha _{k}\\alpha _{k}'}\n  \n from each PC Although not strictly decreasing, the elements of \n  \n    \n      \n        \n          \u03bb\n          \n            k\n          \n        \n        \n          \u03b1\n          \n            k\n          \n        \n        \n          \u03b1\n          \n            k\n          \n          \u2032\n        \n      \n    \n    {\\displaystyle \\lambda _{k}\\alpha _{k}\\alpha _{k}'}\n  \n will tend to become smaller as \n  \n    \n      \n        k\n      \n    \n    {\\displaystyle k}\n  \n increases, as \n  \n    \n      \n        \n          \u03bb\n          \n            k\n          \n        \n        \n          \u03b1\n          \n            k\n          \n        \n        \n          \u03b1\n          \n            k\n          \n          \u2032\n        \n      \n    \n    {\\displaystyle \\lambda _{k}\\alpha _{k}\\alpha _{k}'}\n  \n is nonincreasing for increasing \n  \n    \n      \n        k\n      \n    \n    {\\displaystyle k}\n  \n, whereas the elements of \n  \n    \n      \n        \n          \u03b1\n          \n            k\n          \n        \n      \n    \n    {\\displaystyle \\alpha _{k}}\n  \n tend to stay about the same size because of the normalization constraints: \n  \n    \n      \n        \n          \u03b1\n          \n            k\n          \n          \u2032\n        \n        \n          \u03b1\n          \n            k\n          \n        \n        =\n        1\n        ,\n        k\n        =\n        1\n        ,\n        \u2026\n        ,\n        p\n      \n    \n    {\\displaystyle \\alpha _{k}'\\alpha _{k}=1,k=1,\\dots ,p}",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Principal_component_analysis"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 30,
+    "question": "Why is Go important or significant?",
+    "answer": "The portion of the gas price that is in excess of the base gas price is known as the tip and goes to the block proposer; the higher the tip, the more incentive a block proposer has to include the transaction in their block, and thus the quicker the transaction will be included in the blockchain",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ethereum"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 31,
+    "question": "How does Anzac Day compare to Australian?",
+    "answer": "Anzac Day: Anzac Day, named after the Australian and New Zealand Army Corps (ANZAC), commemorates this defining moment. Australian: Casualties\nThe total number of military and civilian casualties in World War I was about 40 million: estimates range from around 15 to 22 million deaths and about 23 million wounded military personnel, ranking it among the deadliest conflicts in human history.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_I"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 32,
+    "question": "How does Gravity compare to However?",
+    "answer": "Gravity: Gravity is negligible in many areas of particle physics, so that unification between general relativity and quantum mechanics is not an urgent issue in those particular applications. However: However, the lack of a correct theory of quantum gravity is an important issue in physical cosmology and the search by physicists for an elegant \"Theory of Everything\" (TOE).",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Quantum_mechanics"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 33,
+    "question": "How does American compare to Soviet Union?",
+    "answer": "American: American policymakers accused the Soviet Union of conspiring against the Greek royalists in an effort to expand Soviet influence even though Stalin had told the Communist Party to cooperate with the British-backed government. Soviet Union: Marshall Plan, Czechoslovak coup and formation of two German states\nIn early 1947, France, Britain and the United States unsuccessfully attempted to reach an agreement with the Soviet Union for a plan envisioning an economically self-sufficient Germany, including a detailed accounting of the industrial plants, goods and infrastructure already taken by the Soviets.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cold_War"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 34,
+    "question": "What is In February?",
+    "answer": "In February 2019, citing confusion over the licensing terms, the Apache License with Commons Clause licensing terms for Redis modules was replaced with the \"Redis Source Available License\" (RSAL), which explicitly prohibits commercial use of the modules as part of \"a database, a caching engine, a stream processing engine, a search engine, an indexing engine or an ML/DL/AI serving engine.\" The last revision of the modules under a free and open source license were forked by community members as the GoodFORM project",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Redis"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 35,
+    "question": "Why is From important or significant?",
+    "answer": "Voice cast\nFrench \n\nEma Lucas-Viguier as Violette\nFr\u00e9d\u00e9ric Pierrot as R\u00e9gis\nAnne Alvaro as Genevi\u00e8ve\nC\u00e9line Ront\u00e9 as Olga\nMalcolm Vallet-Armellino as Malcolm\nEnglish \n\nJemma Wilcox as Violette\nSaul Jephcott as Regis\nCharlotte Rampling as Genevi\u00e8ve\nMargeaux Lampley as Olga, parents, kids\nDavid Coburn as Mr Angel, funeral Director, guide\nOwen de la Hoyde as Malcolm\nBarbara Weber-Scaff as the teacher, parents, kids\n\nWins\nThe main awards received by the film include:\n\nFrance - Jury prize for a TV special at the 2019 edition of the Annecy International Animation Film Festival\nFrance - Prix de la comp\u00e9tition Jeune Public & Prix Unifrance Jeune Public du Festival international du film en plein air de Grenoble\nFrance - Prix des enfants Courts des Petits - Premiers Plans d\u2019Angers  \nFrance - Best Animated Short Film for Kids - Imaginaria\nFrance - Coup de c\u0153ur pour une oeuvre audiovisuelle Association Les femmes s\u2019Animent - Festival national du film d\u2019animation  \nFrance - R\u00e9animania  Film Festival : Mention sp\u00e9ciale du Jury Festival Anima \u2022 Best TV & educational Film\nFrance - Les enfants terribles de Huy : Coup de C\u0153ur du public - Coup de c\u0153ur du jury jeune - coup de c\u0153ur de 6NEMA\nFrance - Prix du Meilleur Film d\u2019Animation One Country One Film\nUSA - New-York International Children Festival : New York International Children's Audience Award \u2022 NYICFF \u201cGrown-Ups\u201d Best Short Film Award \u2022 NYICFF Grand Prize Short Film Award\nUSA - Chicago International Children's Film Festival : Best TV Award Professional and Children Jury\nUSA - Best Animation Short - Dell-IKFF  \nGermany - Tricks for Kids Award - Stuttgart International Festival of Animated Film\nPortugal - IndieJunior Audience Award\nItaly - Best animated Short Film for Kids Imaginaria\n\nReferences\nExternal links\nMy Life in Versailles at IMDb\nLa Vie de ch\u00e2teau on Annecy International Animated Film Festival's website",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/My_Life_in_Versailles"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 36,
+    "question": "What is The?",
+    "answer": "The term sellers' inflation was coined during this period to describe the effect of corporate profits as a possible cause of inflation: Price inelasticity can contribute to inflation when firms consolidate, tending to support monopoly or monopsony conditions anywhere along the supply chain for goods or services",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Inflation"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 37,
+    "question": "Why is Other important or significant?",
+    "answer": "Other people who have expressed skepticism of the Syrian government being responsible for the attack include former UN weapons inspector Scott Ritter,  US based weapons expert and MIT professor emeritus Theodore Postol, former UK ambassador to Syria and director of the British Syrian Society Peter Ford, investigative Israeli journalist Uri Avneri, and investigative journalist Seymour Hersh",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Khan_Shaykhun_chemical_attack"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 38,
+    "question": "Why is This described this way?",
+    "answer": "Because the study of reconsolidation is still a newer concept, there is still debate on whether it should be considered scientifically sound",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Memory"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 39,
+    "question": "Why is It important or significant?",
+    "answer": "It is possible to construct a chain \n  \n    \n      \n        (\n        \n          Y\n          \n            n\n          \n        \n        )\n      \n    \n    {\\displaystyle (Y_{n})}\n  \n from \n  \n    \n      \n        (\n        \n          X\n          \n            n\n          \n        \n        )\n      \n    \n    {\\displaystyle (X_{n})}\n  \n which has the 'classical' Markov property by taking as state space the ordered m-tuples of X values, i.e., \n  \n    \n      \n        \n          Y\n          \n            n\n          \n        \n        =\n        \n          (\n          \n            \n              X\n              \n                n\n              \n            \n            ,\n            \n              X\n              \n                n\n                \u2212\n                1\n              \n            \n            ,\n            \u2026\n            ,\n            \n              X\n              \n                n\n                \u2212\n                m\n                +\n                1\n              \n            \n          \n          )\n        \n      \n    \n    {\\displaystyle Y_{n}=\\left(X_{n},X_{n-1},\\ldots ,X_{n-m+1}\\right)}",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Markov_chain"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 40,
+    "question": "How is These related to In?",
+    "answer": "These codes can be roughly subdivided into data compression (source coding) and error-correction (channel coding) techniques In the latter case, it took many years to find the methods Shannon's work proved were possible",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Information_theory"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 41,
+    "question": "How does Taylor compare to People?",
+    "answer": "Taylor: Taylor also worked in the mid 80's with People's Law Office colleagues Cunningham, Haas, Stainthorp, Michael Deutsch and Peter Schmiedel on the \"street files\" cases, during which Chicago police detective Frank Laverty brought to light the Chicago Police Department's secret filing system in which detectives concealed evidence that supported a criminal defendant's innocence. People: If any new investigation does get launched in the case, it will mark a dramatic departure from the stance previously taken by [Cook County] law-enforcement officials, who have strongly resisted tackling the issue of individual accountability for what happened in the Ford Heights Four case.\" Ryan Harris case\nIn 1998, the Chicago police accused a seven-year-old boy, along with his eight-year-old friend, of the murder and sexual assault of an 11-year-old girl, Ryan Harris..",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/G._Flint_Taylor"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 42,
+    "question": "What is Julia?",
+    "answer": "Julia is now supported in Raspbian while support is better for newer Pis, e.g., those with Armv7 or newer; the Julia support is promoted by the Raspberry Pi Foundation",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Julia_(programming_language)"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 43,
+    "question": "Why is It important or significant?",
+    "answer": "Examples of refactoring:\nmoving code to where it most logically belongs\nremoving duplicate code\nmaking names self-documenting\nsplitting methods into smaller pieces\nre-arranging inheritance hierarchies\nRepeat\nRepeat the process, starting at step 2, with each test on the list until all tests are implemented and passing",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Test-driven_development"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 44,
+    "question": "Why is In important or significant?",
+    "answer": "In The Observer of 10 March 1946, Orwell wrote, \"after the Moscow conference last December, Russia began to make a 'cold war' on Britain and the British Empire.\" The first use of the term to describe the specific post-war geopolitical confrontation between the Soviet Union and the United States came in a speech by Bernard Baruch, an influential advisor to Democratic presidents, on 16 April 1947.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cold_War"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 45,
+    "question": "How is Evolution related to In?",
+    "answer": "Evolution by natural selection is established by observable facts about living organisms: (1) more offspring are often produced than can possibly survive; (2) traits vary among individuals with respect to their morphology, physiology, and behaviour; (3) different traits confer different rates of survival and reproduction (differential fitness); and (4) traits can be passed from generation to generation (heritability of fitness) In successive generations, members of a population are therefore more likely to be replaced by the offspring of parents with favourable characteristics for that environment",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Evolution"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 46,
+    "question": "How is Moreover related to Scornet?",
+    "answer": "Moreover, \n  \n    \n      \n        \n          X\n        \n      \n    \n    {\\displaystyle \\mathbf {X} }\n  \n is uniformly distributed on \n  \n    \n      \n        [\n        0\n        ,\n        1\n        \n          ]\n          \n            d\n          \n        \n      \n    \n    {\\displaystyle [0,1]^{d}}\n  \n and \n  \n    \n      \n        m\n      \n    \n    {\\displaystyle m}\n  \n is Lipschitz Scornet proved upper bounds on the rates of consistency for centered KeRF and uniform KeRF",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Random_forest"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 47,
+    "question": "How does Springer compare to Golan?",
+    "answer": "Springer: ), Springer, ISBN 978-1-4020-5494-5\nGolan, Johnathan S. Golan: (December 6, 2006), Applied Linear Algebra and Matrix Analysis, Undergraduate Texts in Mathematics, Springer, ISBN 978-0-387-33194-2\nSmith, Larry (May 28, 1998), Linear Algebra, Undergraduate Texts in Mathematics, Springer, ISBN 978-0-387-98455-1\nTrefethen, Lloyd N.; Bau, David (1997), Numerical Linear Algebra, SIAM, ISBN 978-0-898-71361-9\n\nStudy guides and outlines\nLeduc, Steven A.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Linear_algebra"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 48,
+    "question": "How does The compare to United Kingdom?",
+    "answer": "The: The first sociology department established in the United Kingdom was at the London School of Economics and Political Science (home of the British Journal of Sociology) in 1904. United Kingdom: An emphasis on empiricism and the scientific method is sought to provide a tested foundation for sociological research based on the assumption that the only authentic knowledge is scientific knowledge, and that such knowledge can only arrive by positive affirmation through scientific methodology.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sociology"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 49,
+    "question": "Why is On important or significant?",
+    "answer": "The purpose of the Messaging Anti-Abuse Working Group (MAAWG) is to bring the messaging industry together to work collaboratively and to successfully address the various forms of messaging abuse, such as spam, viruses, denial-of-service attacks and other messaging exploitations",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Computer_security"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 50,
+    "question": "How is The related to Building?",
+    "answer": "The largest stones are then chosen to be dealt with since they represent the greatest traumas the patient needs to reprocess or overcome Building a lifeline can also help strengthen the therapeutic relationship and create an estimation of the number of sessions a patient may need",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Narrative_exposure_therapy"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 51,
+    "question": "How does For compare to Probability?",
+    "answer": "For: For example, for a student who studies 2 hours, entering the value \n  \n    \n      \n        x\n        =\n        2\n      \n    \n    {\\displaystyle x=2}\n  \n into the equation gives the estimated probability of passing the exam of 0.25:\n\n  \n    \n      \n        t\n        =\n        \n          \u03b2\n          \n            0\n          \n        \n        +\n        2\n        \n          \u03b2\n          \n            1\n          \n        \n        \u2248\n        \u2212\n        4.1\n        +\n        2\n        \u22c5\n        1.5\n        =\n        \u2212\n        1.1\n      \n    \n    {\\displaystyle t=\\beta _{0}+2\\beta _{1}\\approx -4.1+2\\cdot 1.5=-1.1}\n  \n\n  \n    \n      \n        p\n        =\n        \n          \n            1\n            \n              1\n              +\n              \n                e\n                \n                  \u2212\n                  t\n                \n              \n            \n          \n        \n        \u2248\n        0.25\n        =\n        \n          Probability of passing exam\n        \n      \n    \n    {\\displaystyle p={\\frac {1}{1+e^{-t}}}\\approx 0.25={\\text{Probability of passing exam}}}\n  \n\nSimilarly, for a student who studies 4 hours, the estimated probability of passing the exam is 0.87:\n\n  \n    \n      \n        t\n        =\n        \n          \u03b2\n          \n            0\n          \n        \n        +\n        4\n        \n          \u03b2\n          \n            1\n          \n        \n        \u2248\n        \u2212\n        4.1\n        +\n        4\n        \u22c5\n        1.5\n        =\n        1.9\n      \n    \n    {\\displaystyle t=\\beta _{0}+4\\beta _{1}\\approx -4.1+4\\cdot 1.5=1.9}\n  \n\n  \n    \n      \n        p\n        =\n        \n          \n            1\n            \n              1\n              +\n              \n                e\n                \n                  \u2212\n                  t\n                \n              \n            \n          \n        \n        \u2248\n        0.87\n        =\n        \n          Probability of passing exam\n        \n      \n    \n    {\\displaystyle p={\\frac {1}{1+e^{-t}}}\\approx 0.87={\\text{Probability of passing exam}}}\n  \n\nThis table shows the estimated probability of passing the exam for several values of hours studying. Probability: For example, for a student who studies 2 hours, entering the value \n  \n    \n      \n        x\n        =\n        2\n      \n    \n    {\\displaystyle x=2}\n  \n into the equation gives the estimated probability of passing the exam of 0.25:\n\n  \n    \n      \n        t\n        =\n        \n          \u03b2\n          \n            0\n          \n        \n        +\n        2\n        \n          \u03b2\n          \n            1\n          \n        \n        \u2248\n        \u2212\n        4.1\n        +\n        2\n        \u22c5\n        1.5\n        =\n        \u2212\n        1.1\n      \n    \n    {\\displaystyle t=\\beta _{0}+2\\beta _{1}\\approx -4.1+2\\cdot 1.5=-1.1}\n  \n\n  \n    \n      \n        p\n        =\n        \n          \n            1\n            \n              1\n              +\n              \n                e\n                \n                  \u2212\n                  t\n                \n              \n            \n          \n        \n        \u2248\n        0.25\n        =\n        \n          Probability of passing exam\n        \n      \n    \n    {\\displaystyle p={\\frac {1}{1+e^{-t}}}\\approx 0.25={\\text{Probability of passing exam}}}\n  \n\nSimilarly, for a student who studies 4 hours, the estimated probability of passing the exam is 0.87:\n\n  \n    \n      \n        t\n        =\n        \n          \u03b2\n          \n            0\n          \n        \n        +\n        4\n        \n          \u03b2\n          \n            1\n          \n        \n        \u2248\n        \u2212\n        4.1\n        +\n        4\n        \u22c5\n        1.5\n        =\n        1.9\n      \n    \n    {\\displaystyle t=\\beta _{0}+4\\beta _{1}\\approx -4.1+4\\cdot 1.5=1.9}\n  \n\n  \n    \n      \n        p\n        =\n        \n          \n            1\n            \n              1\n              +\n              \n                e\n                \n                  \u2212\n                  t\n                \n              \n            \n          \n        \n        \u2248\n        0.87\n        =\n        \n          Probability of passing exam\n        \n      \n    \n    {\\displaystyle p={\\frac {1}{1+e^{-t}}}\\approx 0.87={\\text{Probability of passing exam}}}\n  \n\nThis table shows the estimated probability of passing the exam for several values of hours studying.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Logistic_regression"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 52,
+    "question": "What is Descartes?",
+    "answer": "Descartes, for example, has sometimes been blamed for mistreatment of animals due to the fact that he believed only humans have a non-physical mind",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Consciousness"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 53,
+    "question": "What is In?",
+    "answer": "In 1974, IBM began developing System R, a research project to develop a prototype RDBMS",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Relational_database"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 54,
+    "question": "How is In related to The?",
+    "answer": "In addition to promoting the interests of UNC Charlotte, the Alumni Association acts as a network of UNC Charlotte graduates who assist each other in their personal, professional and social development, and recognize and cheer the accomplishments of their fellow members The association offers members a number of benefits and services",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 55,
+    "question": "How does It compare to Thames Tunnel?",
+    "answer": "It: It sought to reuse the Thames Tunnel, built by Marc and Isambard Kingdom Brunel between 1825 and 1843. Thames Tunnel: By the late 1880s the LB&SCR had developed the largest suburban network of any British railway, with 68 route miles (109 km) in the suburbs in addition to its main lines, in three routes between London Bridge and Victoria: the South London line, the outer South London Line and the Crystal Palace lines, and the LB&SCR was earning more from season tickets than any other British railway..",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/London,_Brighton_and_South_Coast_Railway"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 56,
+    "question": "What is Tokyo?",
+    "answer": "A devastating bombing raid on Tokyo of 9\u201310 March was the deadliest conventional bombing raid in history",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 57,
+    "question": "Why is Another described this way?",
+    "answer": "The basic statements are not subject to proof because they are self-evident (postulates), or are part of the definition of the subject of study (axioms)",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Mathematics"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 58,
+    "question": "What is Some?",
+    "answer": "Some proponents of Saussure's view of language have advocated a formal approach that studies language structure by identifying its basic elements and then by presenting a formal account of the rules according to which the elements combine in order to form words and sentences",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Language"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 59,
+    "question": "How is Another related to While?",
+    "answer": "Another evidence-based CM intervention for substance abuse is community reinforcement approach and family training that uses FBAs and counterconditioning techniques\u2014such as behavioral skills training and relapse prevention\u2014to model and reinforce healthier lifestyle choices which promote self-management of abstinence from drugs, alcohol, or cigarette smoking during high-risk exposure when engaging with family members, friends, and co-workers While schoolwide positive behavior support consists of conducting assessments and a task analysis plan to differentially reinforce curricular supports that replace students' disruptive behavior in the classroom, pediatric feeding therapy incorporates a liquid chaser and chin feeder to shape proper eating behavior for children with feeding disorders",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Behaviorism"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 60,
+    "question": "How does Thus compare to Private?",
+    "answer": "Thus: Thus, the loss of the smart card may be detected by the owner and the corresponding certificate can be immediately revoked. Private: Private keys that are protected by software only may be easier to copy, and such compromises are far more difficult to detect.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Digital_signature"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 61,
+    "question": "What is The?",
+    "answer": "The graphic model shows combinations of interest rates and output that ensure equilibrium in both the goods and money markets under the model's assumptions",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Macroeconomics"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 62,
+    "question": "How is Windows related to Ubuntu?",
+    "answer": "64-bit ARM is supported with tier 2 support on other platforms, Windows 11 and Linux (and tier 3 for FreeBBSD 14.1+) \"WSL 2 (Ubuntu LTS)\" has tier 2 support on Windows 10+ (WSL 1 seemingly works too), and should also work when used with other Linux distributions",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Julia_(programming_language)"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 63,
+    "question": "How is Divisibility related to An?",
+    "answer": "Divisibility is a property between two nonzero integers related to division An integer \n  \n    \n      \n        a\n      \n    \n    {\\displaystyle a}\n  \n is said to be divisible by a nonzero integer \n  \n    \n      \n        b\n      \n    \n    {\\displaystyle b}\n  \n if \n  \n    \n      \n        a\n      \n    \n    {\\displaystyle a}\n  \n is a multiple of \n  \n    \n      \n        b\n      \n    \n    {\\displaystyle b}\n  \n; that is, if there exists an integer \n  \n    \n      \n        q\n      \n    \n    {\\displaystyle q}\n  \n such that \n  \n    \n      \n        a\n        =\n        b\n        q\n      \n    \n    {\\displaystyle a=bq}",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Number_theory"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 64,
+    "question": "Why is Google important or significant?",
+    "answer": "As of 2008, researchers at The University of Texas at Austin (UT) developed a machine learning framework called Training an Agent Manually via Evaluative Reinforcement, or TAMER, which proposed new methods for robots or computer programs to learn how to perform tasks by interacting with a human instructor",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Deep_learning"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 65,
+    "question": "How does Another compare to This?",
+    "answer": "Another: Another source of sound change is the erosion of words as pronunciation gradually becomes increasingly indistinct and shortens words, leaving out syllables or sounds. This: This kind of change caused Latin mea domina to eventually become the French madame and American English ma'am.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Language"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 66,
+    "question": "Why is Mental important or significant?",
+    "answer": "Emotional well-being is defined as having high levels of positive emotions, whereas social and psychological well-being are defined as the presence of psychological and social skills and abilities that contribute to optimal functioning in daily life",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Mental_health"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 67,
+    "question": "Why is They important or significant?",
+    "answer": "Since the following is valid:\n\n  \n    \n      \n        f\n        (\n        \n          \n            x\n          \n          \n            0\n          \n        \n        )\n        \u2265\n        f\n        (\n        \n          x\n        \n        )\n        \u21d4\n        \u2212\n        f\n        (\n        \n          \n            x\n          \n          \n            0\n          \n        \n        )\n        \u2264\n        \u2212\n        f\n        (\n        \n          x\n        \n        )\n        ,\n      \n    \n    {\\displaystyle f(\\mathbf {x} _{0})\\geq f(\\mathbf {x} )\\Leftrightarrow -f(\\mathbf {x} _{0})\\leq -f(\\mathbf {x} ),}\n  \n\nit suffices to solve only minimization problems",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Mathematical_optimization"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 68,
+    "question": "How is Application related to Application?",
+    "answer": "Application checkpointing is a technique whereby the computer system takes a \"snapshot\" of the application\u2014a record of all current resource allocations and variable states, akin to a core dump\u2014; this information can be used to restore the program if the computer should fail Application checkpointing means that the program has to restart from only its last checkpoint rather than the beginning",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Parallel_computing"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 69,
+    "question": "Why is In important or significant?",
+    "answer": "Polish Solidarity movement and martial law\nPope John Paul II provided a moral focus for anti-communism; a visit to his native Poland in 1979 stimulated a religious and nationalist resurgence centered on the Solidarity movement trade union that galvanized opposition, and may have led to his attempted assassination two years later.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cold_War"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 70,
+    "question": "How does For compare to Cultures?",
+    "answer": "For: For example, after tropical forests returned at the end of the last ice age, plants suitable for domestication were available, leading to the invention of agriculture, which in turn brought about many cultural innovations and shifts in social dynamics. Cultures: Cultures are externally affected via contact between societies, which may also produce\u2014or inhibit\u2014social shifts and changes in cultural practices.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Culture"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 71,
+    "question": "Why is Zero described this way?",
+    "answer": "However, in the 1970s and 1980s, there were no grave computer threats because computers and the internet  were still in the early stages of development, and security threats were easily identifiable.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Computer_security"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 72,
+    "question": "What is It?",
+    "answer": "It makes use of computers communicating over the Internet to work on a given problem",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Parallel_computing"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 73,
+    "question": "Why is Mental important or significant?",
+    "answer": "Isaac Ray, the fourth president of the American Psychiatric Association and one of its founders, further defined mental hygiene as \"the art of preserving the mind against all incidents and influences calculated to deteriorate its qualities, impair its energies, or derange its movements.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Mental_health"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 74,
+    "question": "How does Social compare to Many?",
+    "answer": "Social: Social psychology\nMany facets of modern social psychology have roots in research done within the field of cognitive psychology. Many: Developmental psychology\nMany of the prominent names in the field of developmental psychology base their understanding of development on cognitive models.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cognitive_psychology"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 75,
+    "question": "How does In compare to Winograd?",
+    "answer": "In: In contrast, prospective memory is memory for future intentions, or remembering to remember (Winograd, 1988). Winograd: Techniques used to assess infants' recognition memory include the following:\n\nVisual paired comparison procedure (relies on habituation): infants are first presented with pairs of visual stimuli, such as two black-and-white photos of human faces, for a fixed amount of time; then, after being familiarized with the two photos, they are presented with the \"familiar\" photo and a new photo.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Memory"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 76,
+    "question": "What is The?",
+    "answer": "The resulting function looks like:\n\nFibonacci hashing\nFibonacci hashing is a form of multiplicative hashing in which the multiplier is 2w / \u03d5, where w is the machine word length and \u03d5 (phi) is the golden ratio (approximately 1.618)",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Hash_function"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 77,
+    "question": "Why is Benefits described this way?",
+    "answer": "Benefits\nCI benefits include:\n\nFacilitates detecting bugs earlier\nReduces effort to find cause of bugs; if a CI test fails then the changes since the last good build must have caused the failure, and if built after each change, then exactly one change is the cause\nAvoids the chaos of integrating many changes\nWhen a test fails or a bug is found, reverting the codebase to a good state results in fewer lost changes\nFrequent availability of a known-good build for testing, demo, and release\nFrequent code commit encourages modular, less complex code\nQuick feedback on system-wide impact of code changes\nSupports collection of software metrics such as code coverage, code complexity\n\nRisks\nRisks of CI include:\n\nBuild system setup requires effort\nWriting and maintaining an automated test suite requires effort\nValue added depends on the quality of tests\nHigh build latency (sitting in queue) limits value\nImplies that incomplete code should not be integrated which is counter to some developer's preferred practice\nSafety and mission-critical development assurance (e.g., DO-178C, ISO 26262) require documentation and review which may be difficult to achieve\n\nBest practices for cloud systems\nThe following practices can enhance productivity of pipelines, especially in systems hosted in the cloud: \n\nNumber of Pipelines: Small teams can be more productive by having one repository and one pipeline",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Continuous_integration"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 78,
+    "question": "Why is Synchrony important or significant?",
+    "answer": "Research methodology\nSociological research methods may be divided into two broad, though often supplementary, categories:\n\nQualitative designs emphasize understanding of social phenomena through direct observation, communication with participants, or analysis of texts, and may stress contextual and subjective accuracy over generality.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sociology"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 79,
+    "question": "Why is This described this way?",
+    "answer": "In cases where \n  \n    \n      \n        \u00ac\n        H\n      \n    \n    {\\displaystyle \\neg H}\n  \n (\"not \n  \n    \n      \n        H\n      \n    \n    {\\displaystyle H}\n  \n\"), the logical negation of \n  \n    \n      \n        H\n      \n    \n    {\\displaystyle H}\n  \n, is a valid likelihood, Bayes' rule can be rewritten as follows:\n\n  \n    \n      \n        \n          \n            \n              \n                P\n                (\n                H\n                \u2223\n                E\n                )\n              \n              \n                \n                =\n                \n                  \n                    \n                      P\n                      (\n                      E\n                      \u2223\n                      H\n                      )\n                      P\n                      (\n                      H\n                      )\n                    \n                    \n                      P\n                      (\n                      E\n                      )\n                    \n                  \n                \n              \n            \n            \n              \n            \n            \n              \n              \n                \n                =\n                \n                  \n                    \n                      P\n                      (\n                      E\n                      \u2223\n                      H\n                      )\n                      P\n                      (\n                      H\n                      )\n                    \n                    \n                      P\n                      (\n                      E\n                      \u2223\n                      H\n                      )\n                      P\n                      (\n                      H\n                      )\n                      +\n                      P\n                      (\n                      E\n                      \u2223\n                      \u00ac\n                      H\n                      )\n                      P\n                      (\n                      \u00ac\n                      H\n                      )\n                    \n                  \n                \n              \n            \n            \n              \n            \n            \n              \n              \n                \n                =\n                \n                  \n                    1\n                    \n                      1\n                      +\n                      \n                        (\n                        \n                          \n                            \n                              1\n                              \n                                P\n                                (\n                                H\n                                )\n                              \n                            \n                          \n                          \u2212\n                          1\n                        \n                        )\n                      \n                      \n                        \n                          \n                            P\n                            (\n                            E\n                            \u2223\n                            \u00ac\n                            H\n                            )\n                          \n                          \n                            P\n                            (\n                            E\n                            \u2223\n                            H\n                            )\n                          \n                        \n                      \n                    \n                  \n                \n              \n            \n          \n        \n      \n    \n    {\\displaystyle {\\begin{aligned}P(H\\mid E)&={\\frac {P(E\\mid H)P(H)}{P(E)}}\\\\\\\\&={\\frac {P(E\\mid H)P(H)}{P(E\\mid H)P(H)+P(E\\mid \\neg H)P(\\neg H)}}\\\\\\\\&={\\frac {1}{1+\\left({\\frac {1}{P(H)}}-1\\right){\\frac {P(E\\mid \\neg H)}{P(E\\mid H)}}}}\\\\\\end{aligned}}}\n  \n\nbecause\n\n  \n    \n      \n        P\n        (\n        E\n        )\n        =\n        P\n        (\n        E\n        \u2223\n        H\n        )\n        P\n        (\n        H\n        )\n        +\n        P\n        (\n        E\n        \u2223\n        \u00ac\n        H\n        )\n        P\n        (\n        \u00ac\n        H\n        )\n      \n    \n    {\\displaystyle P(E)=P(E\\mid H)P(H)+P(E\\mid \\neg H)P(\\neg H)}\n  \n\nand\n\n  \n    \n      \n        P\n        (\n        H\n        )\n        +\n        P\n        (\n        \u00ac\n        H\n        )\n        =\n        1",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Bayesian_inference"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 80,
+    "question": "What is Thomas Peter Wayne?",
+    "answer": "Thomas Peter Wayne McGill (born 25 March 2000) is a Canadian professional soccer player who plays as a goalkeeper for Premier League club Brighton & Hove Albion",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Tom_McGill"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 81,
+    "question": "What is In?",
+    "answer": "In general relativity, however, there exists a smallest possible radius for which a massive particle can orbit stably",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Black_hole"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 82,
+    "question": "Why is The Unix important or significant?",
+    "answer": "Free Unix and Unix-like variants\nIn 1983, Richard Stallman announced the GNU (short for \"GNU's Not Unix\") project, an ambitious effort to create a free software Unix-like system \u2013 \"free\" in the sense that everyone who received a copy would be free to use, study, modify, and redistribute it",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Unix"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 83,
+    "question": "How does The compare to Yann?",
+    "answer": "The: The impact of deep learning in industry began in the early 2000s, when CNNs already processed an estimated 10% to 20% of all the checks written in the US, according to Yann LeCun. Yann: However, it was discovered that replacing pre-training with large amounts of training data for straightforward backpropagation when using DNNs with large, context-dependent output layers produced error rates dramatically lower than then-state-of-the-art Gaussian mixture model (GMM)/Hidden Markov Model (HMM) and also than more-advanced generative model-based systems.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Deep_learning"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 84,
+    "question": "What is For?",
+    "answer": "For instance, polysaccharides are broken down into their monomers by enzymes (glycogen phosphorylase removes glucose residues from glycogen, a polysaccharide)",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Biochemistry"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 85,
+    "question": "How does Despite compare to Jaegwon Kim?",
+    "answer": "Despite: Despite these problems, there is a renewed interest in the type identity theory today, primarily due to the influence of Jaegwon Kim. Jaegwon Kim: Non-reductive physicalism\nNon-reductionist philosophers hold firmly to two essential convictions with regard to mind\u2013body relations: 1) Physicalism is true and mental states must be physical states, but 2) All reductionist proposals are unsatisfactory: mental states cannot be reduced to behavior, brain states or functional states.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Philosophy_of_mind"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 86,
+    "question": "Why is Consistency important or significant?",
+    "answer": "Consistency of uniform KeRF\nProviding \n  \n    \n      \n        k\n        \u2192\n        \u221e\n      \n    \n    {\\displaystyle k\\rightarrow \\infty }\n  \n and \n  \n    \n      \n        n\n        \n          /\n        \n        \n          2\n          \n            k\n          \n        \n        \u2192\n        \u221e\n      \n    \n    {\\displaystyle n/2^{k}\\rightarrow \\infty }\n  \n, there exists a constant \n  \n    \n      \n        C\n        >\n        0\n      \n    \n    {\\displaystyle C>0}\n  \n such that,\n\n  \n    \n      \n        \n          E\n        \n        [\n        \n          \n            \n              \n                m\n                ~\n              \n            \n          \n          \n            n\n          \n          \n            u\n            f\n          \n        \n        (\n        \n          X\n        \n        )\n        \u2212\n        m\n        (\n        \n          X\n        \n        )\n        \n          ]\n          \n            2\n          \n        \n        \u2264\n        C\n        \n          n\n          \n            \u2212\n            2\n            \n              /\n            \n            (\n            6\n            +\n            3\n            d\n            log\n            \u2061\n            2\n            )\n          \n        \n        (\n        log\n        \u2061\n        n\n        \n          )\n          \n            2\n          \n        \n      \n    \n    {\\displaystyle \\mathbb {E} [{\\tilde {m}}_{n}^{uf}(\\mathbf {X} )-m(\\mathbf {X} )]^{2}\\leq Cn^{-2/(6+3d\\log 2)}(\\log n)^{2}}",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Random_forest"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 87,
+    "question": "How does The Julia compare to The Julia?",
+    "answer": "The Julia: The Julia language is also supported by individual donors on GitHub. The Julia: The Julia company\nJuliaHub, Inc.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Julia_(programming_language)"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 88,
+    "question": "How does In compare to Version?",
+    "answer": "In: In 2026, a previously unknown magnetic tape containing Version 4 Unix was discovered at the University of Utah and recovered successfully at the Computer History Museum in California. Version: The tape represents the earliest known surviving distribution of Version 4 and provides additional insight into the early development of Unix.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Unix"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 89,
+    "question": "How is In May related to These?",
+    "answer": "In May 2017, Junade Ali, a computer scientist at Cloudflare noted that native DDoS vulnerabilities exist in IoT devices due to a poor implementation of the Publish\u2013subscribe pattern These sorts of attacks have caused security experts to view IoT as a real threat to Internet services",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Internet_of_things"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 90,
+    "question": "How is Mulder related to Early?",
+    "answer": "Mulder went on to identify the products of protein degradation such as the amino acid leucine for which he found a (nearly correct) molecular weight of 131 Da Early nutritional scientists such as the German Carl von Voit believed that protein was the most important nutrient for maintaining the structure of the body, because it was generally believed that \"flesh makes flesh\"",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Protein"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 91,
+    "question": "How is Secrets related to Labels?",
+    "answer": "Secrets are often used to store confidential or sensitive data like certificates, credentials to work with image registries, passwords, and ssh keys Labels and selectors\nKubernetes enables clients (users or internal components) to attach keys called labels to any API object in the system, such as pods and nodes",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Kubernetes"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 92,
+    "question": "How is This related to Once?",
+    "answer": "This involves disambiguating individual terms that could be misunderstood but may also require a general translation if the source is written in an unfamiliar language Once the information content of a source is understood, internal criticism is specifically interested in determining accuracy",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/History"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 93,
+    "question": "What is In?",
+    "answer": "In the Republic of the Congo, also known as Congo-L\u00e9opoldville, newly independent from Belgium since June 1960, the Congo Crisis erupted on 5 July leading to the secession of the regions Katanga and South Kasai",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cold_War"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 94,
+    "question": "Why is Furthermore described this way?",
+    "answer": "This rapid growth among the globalizers is not simply due to the strong performances of China and India in the 1980s and 1990s\u201418 out of the 24 globalizers experienced increases in growth, many of them quite substantial.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Globalization"
+    ],
+    "question_type": "inferential"
+  },
+  {
+    "id": 95,
+    "question": "How is They related to Socialists?",
+    "answer": "They also point out that this process generates wasteful industries and practices that exist only to generate sufficient demand for products such as high-pressure advertisement to be sold at a profit, thereby creating rather than satisfying economic demand Socialists argue that capitalism consists of irrational activity, such as the purchasing of commodities only to sell at a later time when their price appreciates, rather than for consumption, even if the commodity cannot be sold at a profit to individuals in need and therefore a crucial criticism often made by socialists is that \"making money\", or accumulation of capital, does not correspond to the satisfaction of demand (the production of use-values)",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Socialism"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 96,
+    "question": "How is Microcode related to It?",
+    "answer": "Microcode: microcode is software that translates instructions to run on a chip It acts like a wrapper around the hardware, presenting a preferred version of the hardware's instruction set interface",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Computer_architecture"
+    ],
+    "question_type": "multi-hop"
+  },
+  {
+    "id": 97,
+    "question": "What is The?",
+    "answer": "The blockchain may be considered a type of payment rail",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Blockchain"
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 98,
+    "question": "How does Logistic compare to That?",
+    "answer": "Logistic: Logistic regression is unique in that it may be estimated on unbalanced data, rather than randomly sampled data, and still yield correct coefficient estimates of the effects of each independent variable on the outcome. That: That is to say, if we form a logistic model from such data, if the model is correct in the general population, the \n  \n    \n      \n        \n          \u03b2\n          \n            j\n          \n        \n      \n    \n    {\\displaystyle \\beta _{j}}\n  \n parameters are all correct except for \n  \n    \n      \n        \n          \u03b2\n          \n            0\n          \n        \n      \n    \n    {\\displaystyle \\beta _{0}}.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Logistic_regression"
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 99,
+    "question": "How are the concepts in the context related?",
+    "answer": "It bridges the gap from applied statistics and artificial intelligence (which usually provide the mathematical background) to database management by exploiting the way data is stored and indexed in databases to execute the actual learning and discovery algorithms more efficiently, allowing such methods to be applied to ever-larger data sets",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Data_mining"
+    ],
+    "question_type": "multi-hop"
+  }
+]
