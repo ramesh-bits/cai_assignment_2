@@ -3,6 +3,8 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from nltk.tokenize import word_tokenize
 import re
+import nltk
+nltk.download('punkt')
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
 index = faiss.read_index("indexes/dense.index")
