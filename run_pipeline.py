@@ -8,3 +8,6 @@ os.system("python indexing/sparse_index.py")
 
 # Step 2: Automated evaluation pipeline - generate questions, run evaluation, and compute metrics
 os.system("python evaluation/evaluation_pipeline.py")
+
+# Step 3: Run streamlit app
+os.system("streamlit run app.py")
