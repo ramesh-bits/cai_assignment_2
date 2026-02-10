@@ -13,7 +13,7 @@ tokenized = [word_tokenize(c["text"].lower()) for c in corpus]
 
 bm25 = BM25Okapi(tokenized)
 
-pickle.dump(bm25, open("bm25.pkl", "wb"))
-pickle.dump(corpus, open("corpus.pkl", "wb"))
+pickle.dump(bm25, open("indexes/bm25.pkl", "wb"))
+pickle.dump(corpus, open("indexes/corpus.pkl", "wb"))
 
 print("BM25 index built")

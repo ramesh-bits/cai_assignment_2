@@ -8,9 +8,10 @@ import time
 import subprocess
 
 # Ensure project root is on sys.path
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
+os.chdir(PROJECT_ROOT)
 
 
 def run_step(name, func, *args):
@@ -31,7 +32,7 @@ def step_generate_questions():
     
     import json
     import random
-    from evaluation.generate_questions import generate_question, QUESTION_TYPES
+    from generate_questions import generate_question, QUESTION_TYPES
     
     corpus = json.load(open("data/corpus_chunks.json"))
     
@@ -75,7 +76,7 @@ def step_run_evaluation():
     """Step 2: Run evaluation on all questions."""
     print("Running RAG system on all questions...")
     
-    from evaluation.evaluate import load_questions, run_evaluation, save_results
+    from evaluate import load_questions, run_evaluation, save_results
     
     questions = load_questions()
     results, metrics = run_evaluation(questions, verbose=True)

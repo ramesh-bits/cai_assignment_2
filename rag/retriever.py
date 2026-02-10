@@ -5,9 +5,9 @@ from nltk.tokenize import word_tokenize
 import re
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
-index = faiss.read_index("dense.index")
-bm25 = pickle.load(open("bm25.pkl", "rb"))
-corpus = pickle.load(open("corpus.pkl", "rb"))
+index = faiss.read_index("indexes/dense.index")
+bm25 = pickle.load(open("indexes/bm25.pkl", "rb"))
+corpus = pickle.load(open("indexes/corpus.pkl", "rb"))
 
 def dense_retrieve(query, k=10):
     q = model.encode([query]).astype("float32")

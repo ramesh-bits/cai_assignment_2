@@ -21,40 +21,25 @@ def mean_reciprocal_rank(results):
 
 
 def precision_at_k(results, k):
-    """Precision@K: fraction of top-K results that are relevant.
-    
-    P@K = (# relevant in top-K) / K
-    """
-    hits = sum(1 for r in results if r["rank"] is not None and r["rank"] <= k)
-    return hits / k
+    return sum(
+        1 for r in results if r["rank"] is not None and r["rank"] <= k
+    ) / len(results) if results else 0
 
 
 def recall_at_k(results, k):
-    """Recall@K: fraction of relevant results found in top-K.
-    
-    Recall@K = (# relevant in top-K) / (total relevant)
-    """
-    hits = sum(1 for r in results if r["rank"] is not None and r["rank"] <= k)
-    return hits / len(results)
+    return sum(
+        1 for r in results if r["rank"] is not None and r["rank"] <= k
+    ) / len(results) if results else 0
 
 
 def ndcg_at_k(results, k):
-    """Normalized Discounted Cumulative Gain at K.
-    
-    NDCG@K = DCG@K / IDCG@K
-    - DCG@K = Σ(rel_i / log2(i+1)) for i=1 to K
-    - IDCG@K = ideal DCG (all relevant at top)
-    """
-    dcg = 0
-    for idx, r in enumerate(results[:k]):
-        if r["rank"] is not None:
-            rel = 1 if r["rank"] <= k else 0
-            dcg += rel / (1 + math.log2(idx + 2))
-    
-    # IDCG: if 1 relevant document, ideal is 1/log2(2)
-    idcg = 1 / (1 + math.log2(2)) if results else 0
-    
-    return dcg / idcg if idcg > 0 else 0
+    scores = []
+    for r in results:
+        if r["rank"] is not None and r["rank"] <= k:
+            scores.append(1 / math.log2(r["rank"] + 1))
+        else:
+            scores.append(0)
+    return sum(scores) / len(scores) if scores else 0
 
 
 def rouge_l_similarity(generated_answers, ground_truths):

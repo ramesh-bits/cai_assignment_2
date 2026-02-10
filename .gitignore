@@ -1,2 +1,13 @@
 venv/
 __pycache__
+
+# Ignore everything in data/
+data/*
+
+# But keep this one file
+!data/fixed_urls.json
+
+# Ignore everything in indexes/
+indexes/*
+
+.DS_Store

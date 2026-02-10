@@ -17,7 +17,7 @@ faiss.normalize_L2(embeddings)
 index = faiss.IndexFlatIP(embeddings.shape[1])
 index.add(embeddings)
 
-faiss.write_index(index, "dense.index")
-pickle.dump(corpus, open("corpus.pkl", "wb"))
+faiss.write_index(index, "indexes/dense.index")
+pickle.dump(corpus, open("indexes/corpus.pkl", "wb"))
 
 print("Dense index built")
