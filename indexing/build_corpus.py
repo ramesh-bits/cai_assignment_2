@@ -1,7 +1,7 @@
 import wikipediaapi
 import json
 import nltk
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import sent_tokenize
 import time
 
 # Provide a proper user agent per Wikimedia policy
@@ -11,13 +11,19 @@ TIMEOUT_SECONDS = 10  # Request timeout
 MAX_RETRIES = 2  # Retry failed requests
 
 
-def chunk_text(text, chunk_size=300, overlap=50):
-    tokens = word_tokenize(text)
-    chunks = []
-    for i in range(0, len(tokens), chunk_size - overlap):
-        chunk = tokens[i:i+chunk_size]
-        if len(chunk) >= 200:
-            chunks.append(" ".join(chunk))
+def chunk_text(text, chunk_size=250, overlap=50):
+    sentences = sent_tokenize(text)
+    chunks, current = [], []
+
+    for sent in sentences:
+        current.append(sent)
+        if len(" ".join(current).split()) >= chunk_size:
+            chunks.append(" ".join(current))
+            current = current[-overlap//10:]
+
+    if current:
+        chunks.append(" ".join(current))
+
     return chunks
 
 def build_corpus(urls, out_file="data/corpus_chunks.json"):

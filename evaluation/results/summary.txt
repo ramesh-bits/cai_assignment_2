@@ -1,0 +1,24 @@
+======================================================================
+RAG SYSTEM EVALUATION SUMMARY
+======================================================================
+
+MANDATORY METRIC:
+  MRR (Mean Reciprocal Rank):  1.0000
+
+CUSTOM METRICS:
+  F1 Token Overlap:            0.0000
+  ROUGE-L Score:               0.0000
+
+ADDITIONAL RETRIEVAL METRICS:
+  Precision@5:                 20.0000
+  Recall@5:                    1.0000
+  Hit Rate@5:                  1.0000
+  NDCG@5:                      3.6003
+  Average Rank:                1.00
+
+GENERATION METRICS:
+  Exact Match:                 0.0000
+
+EFFICIENCY METRICS:
+  Avg Response Time (s):       0.373
+  Retrieval Success Rate:      1.0000

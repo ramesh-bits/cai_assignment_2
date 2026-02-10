@@ -20,6 +20,7 @@ QUESTION_TYPES = [
 ]
 
 def generate_question(context, qtype):
+    """Generate a question and answer from context."""
     prompt = f"""
 Generate a {qtype} question and its answer based only on the context below.
 
@@ -30,7 +31,10 @@ Format:
 Question: ...
 Answer: ...
 """
-    output = qgen(prompt)[0]["generated_text"]
+    try:
+        output = qgen(prompt)[0]["generated_text"]
+    except Exception as e:
+        return None, None
 
     if "Answer:" not in output:
         return None, None
@@ -38,31 +42,44 @@ Answer: ...
     q, a = output.split("Answer:", 1)
     return q.replace("Question:", "").strip(), a.strip()
 
-questions = []
-used_chunks = set()
 
-while len(questions) < 100:
-    chunk = random.choice(corpus)
+def generate_questions(num_questions=100):
+    """Generate num_questions Q&A pairs from corpus."""
+    questions = []
+    used_chunks = set()
 
-    if chunk["chunk_id"] in used_chunks:
-        continue
+    while len(questions) < num_questions:
+        if not corpus:
+            break
+            
+        chunk = random.choice(corpus)
 
-    used_chunks.add(chunk["chunk_id"])
-    qtype = random.choice(QUESTION_TYPES)
+        if chunk["chunk_id"] in used_chunks:
+            continue
 
-    question, answer = generate_question(chunk["text"], qtype)
-    if not question or not answer:
-        continue
+        used_chunks.add(chunk["chunk_id"])
+        qtype = random.choice(QUESTION_TYPES)
 
-    questions.append({
-        "id": len(questions),
-        "question": question,
-        "answer": answer,
-        "source_urls": [chunk["url"]],
-        "question_type": qtype
-    })
+        question, answer = generate_question(chunk["text"], qtype)
+        if not question or not answer:
+            continue
 
-with open("data/questions.json", "w") as f:
-    json.dump(questions, f, indent=2)
+        questions.append({
+            "id": len(questions),
+            "question": question,
+            "answer": answer,
+            "source_urls": [chunk["url"]],
+            "question_type": qtype
+        })
 
-print("Generated", len(questions), "questions")
+    return questions
+
+
+if __name__ == "__main__":
+    print("Generating questions...")
+    questions = generate_questions(100)
+    
+    with open("data/questions.json", "w") as f:
+        json.dump(questions, f, indent=2)
+
+    print(f"Generated {len(questions)} questions")
