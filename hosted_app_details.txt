@@ -1,1 +1,2 @@
+Host - streamlit
 URL - https://hybrid-rag-cai-assignment-2.streamlit.app/

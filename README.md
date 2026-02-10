@@ -10,153 +10,150 @@
 
 # Hybrid RAG System
 
-A Retrieval-Augmented Generation (RAG) system that combines dense and sparse retrieval methods using RRF (Reciprocal Rank Fusion) to provide accurate answers with retrieved context from Wikipedia.
+This repository implements a Retrieval-Augmented Generation (RAG) system that combines dense and sparse retrieval with a stable generation pipeline and an automated evaluation harness.
 
-## Overview
+## Highlights
 
-This project implements a hybrid retrieval system that:
-- **Dense Retrieval**: Uses FAISS with sentence transformers (`all-MiniLM-L6-v2`) for semantic similarity
-- **Sparse Retrieval**: Uses BM25 (Okapi) for keyword-based matching
-- **Fusion**: Combines both results using RRF to rank final documents
-- **Generation**: Uses Google FLAN-T5 to generate answers based on retrieved context
-- **Evaluation**: Metrics using ROUGE scores for answer quality assessment
+- Hybrid retrieval using dense (FAISS + sentence-transformers) and sparse (BM25) methods fused with Reciprocal Rank Fusion (RRF).
+- Grounded generation with a deterministic prompt pipeline and an extractive fallback to avoid hallucinations and runtime crashes.
+- An evaluation pipeline that can auto-generate test questions, run retrieval+generation, and compute metrics (MRR, Precision@K, Recall@K, NDCG@K, ROUGE-L, F1/EM).
+- Topic-restricted URL generation for focused corpora sampling.
 
 ## Project Structure
 
 ```
-├── app.py                      # Streamlit web interface
-├── run_pipeline.py             # Orchestrates the entire pipeline
-├── requirements.txt            # Python dependencies
-├── README.md                   # This file
+├── app.py                        # Streamlit web interface
+├── run_pipeline.py               # Orchestrates full pipeline (indexing -> evaluation)
+├── requirements.txt              # Python dependencies
+├── README.md                     # This file
+|
+├── indexing/                     # Data preparation & indexing
+│   ├── build_corpus.py           # Fetch & chunk Wikipedia articles
+│   ├── dense_index.py            # Build FAISS dense index
+│   └── sparse_index.py           # Build BM25 index
 │
-├── indexing/                   # Data preparation & indexing
-│   ├── build_corpus.py         # Fetch & chunk Wikipedia articles
-│   ├── dense_index.py          # Build FAISS dense index
-│   └── sparse_index.py         # Build BM25 sparse index
+├── rag/                          # Core RAG components
+│   ├── retriever.py              # Dense, sparse retrieval + fused API
+│   ├── generator.py              # Grounded generator + extractive fallback
+│   └── rrf.py                    # RRF fusion logic
 │
-├── rag/                        # Core RAG components
-│   ├── retriever.py            # Dense, sparse, RRF retrieval
-│   ├── generator.py            # FLAN-T5 answer generation
-│   └── rrf.py                  # RRF fusion logic
+├── evaluation/                   # Evaluation pipeline & metrics
+│   ├── evaluate.py               # Evaluation runner (compute/save metrics)
+│   ├── generate_questions.py     # Test question generation (LLM + extractive fallback)
+│   ├── evaluation_pipeline.py    # Orchestrator for running end-to-end experiments
+│   └── metrics.py                # Metric utilities
 │
-├── evaluation/                 # Evaluation pipeline
-│   ├── evaluate.py             # ROUGE metrics computation
-│   ├── generate_questions.py   # Test question generation
-│   └── metrics.py              # Metric utilities
-│
-├── data/                       # Generated data & sources
-│   ├── fixed_urls.json         # Curated Wikipedia URLs
-│   ├── random_urls.json        # Random Wikipedia URLs
-│   ├── corpus_chunks.json      # Processed text chunks
-│   └── questions.json          # Test questions
-│
-└── scripts/                    # Utility scripts
-    ├── wiki.py                 # Enhanced Wikipedia corpus manager
-    └── gen_random_wiki_urls.py # Generate Wikipedia URL lists
+├── indexing/                     # URL utilities (topic filtering)
+│   └── generate_urls.py          # Topic-restricted/random URL generation (CLI)
+|
+├── data/                         # Generated data & sources (may be large)
+│   ├── fixed_urls.json           # Curated Wikipedia URLs
+│   ├── random_urls.json          # Random Wikipedia URLs
+│   ├── corpus_chunks.json        # Processed text chunks
+│   └── questions.json            # Generated test Q/A
+|
+└── evaluation/results/           # Evaluation outputs (CSV, JSON, reports)
 ```
 
-## Setup Instructions
+## Quick Setup
 
-### 1. Install Dependencies
+1) Install dependencies (use a virtualenv for reproducibility):
 
 ```bash
-# Install all required packages
+python -m venv .venv
+source .venv/bin/activate
 pip install --upgrade -r requirements.txt
-
-# Download NLTK punkt tokenizer (one-time setup)
 python -c "import nltk; nltk.download('punkt')"
 ```
 
-### 2. Generate Wikipedia Corpus
+2) Build corpus & indices (choose fixed/random URL sources):
 
-Choose one of the following options:
-
-#### Option A: Quick Setup (Using Fixed URLs)
 ```bash
-python scripts/wiki.py
-```
-This will:
-- Fetch 200 fixed + 300 random Wikipedia articles
-- Extract and chunk text
-- Save to `processed_corpus.json`
-
-#### Option B: Initialize URL Collections First
-```bash
-# Generate fixed URLs (curated set, ~200 URLs)
-python scripts/gen_random_wiki_urls.py --mode init_fixed --fixed data/fixed_urls.json
-
-# Generate random URLs (~300 URLs)
-python scripts/gen_random_wiki_urls.py --mode new_random --random data/random_urls.json
+# Option: use curated fixed URLs + generate random ones
+python indexing/generate_urls.py --count 300 --topics "machine learning,python" --out data/random_urls.json --force
+python indexing/build_corpus.py
+python indexing/dense_index.py
+python indexing/sparse_index.py
 ```
 
-Then build indices:
-```bash
-python indexing/build_corpus.py    # Fetch & chunk articles
-python indexing/dense_index.py     # Build FAISS index
-python indexing/sparse_index.py    # Build BM25 index
-```
+Or run the complete orchestrator:
 
-Or run the complete pipeline:
 ```bash
 python run_pipeline.py
 ```
 
-### 3. Run the Streamlit App
+3) Run Streamlit UI:
 
 ```bash
 python -m streamlit run app.py
 ```
 
-Open your browser to `http://localhost:8501` and enter a question.
+Open: http://localhost:8501
 
-## Usage
+## Evaluation
 
-### Interactive Web Interface
+The repository includes an automated evaluation flow:
+
+- `evaluation/generate_questions.py` — generates diverse question types (factual, comparative, inferential, multi-hop) using an LLM when available, with an extractive fallback that creates deterministic QA from corpus text.
+- `evaluation/evaluate.py` & `evaluation/evaluation_pipeline.py` — run retrieval+generation for test questions and compute metrics (MRR, Precision@K, Recall@K, NDCG@K, ROUGE-L, F1/EM).
+
+Run an evaluation (example):
 
 ```bash
-python -m streamlit run app.py
+# ensure virtualenv is active
+python evaluation/evaluation_pipeline.py --questions data/questions.json --outdir evaluation/results --topk 5
 ```
 
-**Features:**
-- Enter natural language questions
-- View retrieved chunks with scores
-- Read AI-generated answers
-- See response time metrics
+Outputs will be saved to `evaluation/results/` (CSV, metrics.json, report)
 
-### Using the RAG System Programmatically
+## Topic-restricted URL generation
+
+`indexing/generate_urls.py` supports topic filtering via `--topics` and CLI flags:
+
+```bash
+python indexing/generate_urls.py --count 200 --topics "machine learning,python" --out data/random_urls.json --force
+```
+
+This is useful to create focused corpora for targeted evaluation.
+
+## Usage (programmatic)
 
 ```python
 from rag.retriever import dense_retrieve, sparse_retrieve, rrf, corpus
 from rag.generator import generate_answer
 
-# Query
 query = "What is machine learning?"
-
-# Dense retrieval
 dense_results = dense_retrieve(query, k=10)
-
-# Sparse retrieval
 sparse_results = sparse_retrieve(query, k=10)
-
-# Fuse results
 fused = rrf(dense_results, sparse_results)[:5]
-
-# Get contexts
 contexts = [corpus[i]["text"] for i, _ in fused]
-
-# Generate answer
 answer = generate_answer(query, contexts)
 print(answer)
 ```
 
-## Key Components
+## Notes & Troubleshooting
 
-### Retriever (`rag/retriever.py`)
-- **`dense_retrieve(query, k=10)`**: Uses sentence transformer embeddings + FAISS for semantic search
-- **`sparse_retrieve(query, k=10)`**: Uses BM25 for keyword matching
-- **`rrf(dense, sparse, k=60)`**: Reciprocal Rank Fusion combining both methods
+- Use the project's virtualenv Python when running scripts to ensure installed packages are available (e.g., `.venv/bin/python indexing/generate_urls.py ...`).
+- If the generator LLM is unavailable or fails (OOM/segfault), the system uses an extractive fallback to produce safe, grounded answers and deterministic QA for evaluation.
+- If you see `FileNotFoundError: dense.index not found`, run `python run_pipeline.py` to rebuild indices.
+- For SSL issues while fetching Wikipedia, set the certifi path:
 
-### Generator (`rag/generator.py`)
+```bash
+export SSL_CERT_FILE="$(python -c 'import certifi; print(certifi.where())')"
+```
+
+## Dependencies
+
+Core packages: `faiss-cpu`, `sentence-transformers`, `rank_bm25`, `transformers`, `nltk`, `requests`, `beautifulsoup4`, `lxml`, `streamlit`, `rouge-score`.
+See `requirements.txt` for the full list.
+
+## Recommended next steps
+
+- If you want more diverse questions without using an external LLM, consider enabling the expanded extractive templates in `evaluation/generate_questions.py` (already available) and regenerating `data/questions.json` with `--force`.
+- Run the topic-restricted URL generator with the virtualenv Python to produce focused corpora for evaluation.
+
+---
+If you'd like, I can now: add a few-shot prompt per qtype to `generate_questions.py` (requires LLM), or expand extractive templates and regenerate `data/questions.json` deterministically. Which do you prefer?
 - Uses Google FLAN-T5 model for text2text-generation
 - Takes query + context and generates natural language answers
 
