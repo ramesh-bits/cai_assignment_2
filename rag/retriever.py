@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 from nltk.tokenize import word_tokenize
 import re
 import nltk
-nltk.download('punkt')
+nltk.download('punkt_tab')
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
 index = faiss.read_index("indexes/dense.index")
